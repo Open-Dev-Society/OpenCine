@@ -1,16 +1,68 @@
-# React + Vite
+🎬 OpenCine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern open-source web app that lets users explore trending and popular movies using the TMDB API.
+OpenCine aims to grow into a community-driven platform where movie lovers can discover films, share opinions, discuss favorites, and collaborate on new features.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 Fetches popular and trending movies using the TMDB API
 
-## React Compiler
+🎨 Clean and responsive UI built with React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚡ Fast performance with optimized components
 
-## Expanding the ESLint configuration
+🌐 Open-source and easy for anyone to contribute
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Future goals:
+
+Movie discussions & comments
+
+Watchlists
+
+Ratings & reviews
+
+User profiles
+
+More movie categories
+
+🛠️ Tech Stack
+
+React
+
+Vite
+
+TMDB API
+
+JavaScript
+
+CSS
+
+📦 Installation & Setup
+1. Clone the repository
+git clone https://github.com/Open-Dev-Society/OpenCine.git
+cd OpenCine
+
+2. Install dependencies
+npm install
+
+3. Add your TMDB API key
+
+Create a .env file:
+
+VITE_TMDB_API_KEY=your_api_key_here
+
+4. Start the development server
+npm run dev
+
+🤝 Contributing
+
+Contributions are welcome!
+Whether it’s new features, bug fixes, UI improvements, or documentation — feel free to open issues and pull requests.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+⭐ Support
+
+If you like the project, consider giving it a star ⭐ on GitHub — it helps a lot!
